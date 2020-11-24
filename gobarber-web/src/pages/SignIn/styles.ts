@@ -5,6 +5,7 @@ import signInBackground from '../../assets/sign-in-background.png';
 
 export const Container = styled.div`
   height: 100vh;
+
   display: flex;
   align-items: stretch;
 `;
@@ -12,8 +13,10 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
+
   align-items: center;
   place-content: center;
+
   width: 100%;
   max-width: 700px;
 
@@ -25,6 +28,7 @@ export const Content = styled.div`
     h1 {
       margin-bottom: 24px;
     }
+  }
 
     a {
       color: #f4ede8;
@@ -45,6 +49,7 @@ export const Content = styled.div`
     margin-top: 24px;
     text-decoration: none;
     transition: color 0.2s;
+
     display: flex;
     align-items: center;
 
